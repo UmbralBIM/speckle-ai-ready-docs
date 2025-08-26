@@ -1,0 +1,44 @@
+name: Validate Documentation Links
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-links:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Install markdown-link-check
+      run: npm install -g markdown-link-check
+      
+    - name: Validate internal links
+      run: |
+        for file in *.md; do
+          echo "Checking $file..."
+          markdown-link-check "$file" --config .markdown-link-check.json || exit 1
+        done
+        
+    - name: Check for broken internal references
+      run: |
+        echo "Checking for broken internal file references..."
+        for file in *.md; do
+          echo "Scanning $file for internal links..."
+          grep -o '\[.*\](.*\.md)' "$file" | while read -r link; do
+            target=$(echo "$link" | sed 's/.*](\(.*\))/\1/')
+            if [ ! -f "$target" ]; then
+              echo "ERROR: $file references non-existent file: $target"
+              exit 1
+            fi
+          done
+        done

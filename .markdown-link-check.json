@@ -1,0 +1,34 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^https://app\\.speckle\\.systems"
+    },
+    {
+      "pattern": "^https://speckle\\.systems"
+    },
+    {
+      "pattern": "^https://forum\\.speckle\\.systems"
+    },
+    {
+      "pattern": "^https://docs\\.speckle\\.systems"
+    },
+    {
+      "pattern": "^#"
+    },
+    {
+      "pattern": "^mailto:"
+    }
+  ],
+  "httpHeaders": [
+    {
+      "urls": ["https://speckle.systems"],
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (compatible; Speckle-Docs-Validator/1.0)"
+      }
+    }
+  ],
+  "timeout": "30s",
+  "retryOn429": true,
+  "retryCount": 3,
+  "fallbackRetryDelay": "30s"
+}

@@ -1,0 +1,101 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Archivos de respaldo
+*.bak
+*.backup
+*.old
+
+# Logs
+*.log
+logs/
+
+# Archivos de configuración local
+.env
+.env.local
+.env.*.local
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de construcción
+build/
+dist/
+out/
+
+# Dependencias
+node_modules/
+vendor/
+
+# Archivos de caché
+.cache/
+.temp/
+
+# Archivos de prueba
+test-results/
+coverage/
+
+# Archivos de documentación generada
+docs/_build/
+docs/.doctrees/
+
+# Archivos específicos de Speckle
+*.rvt
+*.rfa
+*.3dm
+*.gh
+*.blend
+*.qgs
+*.nwd
+*.nwc
+
+# Archivos de datos sensibles
+*.token
+*_token.txt
+*_key.txt
+*_secret.txt
+credentials.json
+secrets.json
+
+# Archivos de Power BI
+*.pbix
+*.pbix.bak
+
+# Archivos de Excel
+*.xlsx
+*.xls
+*.xlsm
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Archivos de .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.pdb
+*.dll
+*.exe

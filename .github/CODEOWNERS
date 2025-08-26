@@ -1,0 +1,14 @@
+# Global owners
+* @UmbralBIM
+
+# Documentation specific
+*.md @UmbralBIM
+
+# Connector documentation
+*Connectors*.md @UmbralBIM
+
+# API documentation
+*API*.md @UmbralBIM
+
+# Power BI documentation
+*PowerBI*.md @UmbralBIM
