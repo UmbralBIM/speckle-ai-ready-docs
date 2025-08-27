@@ -54,22 +54,12 @@ Each document follows a consistent didactic sequence:
 
 ## 🛠️ Use Cases
 
-### **For AI Assistants**
-- Solve technical queries about Speckle implementations
+- Resolve technical queries about Speckle implementations
 - Guide users in multi-tool workflows
-- Provide verified code examples
-- Diagnose common problems
-
-### **For Developers**
 - Implement integrations with Speckle API
 - Configure connectors for AEC applications
-- Create 3D data dashboards in Power BI
+- Create custom 3D dashboards in Power BI
 - Automate workflows with SDKs
-
-### **For AEC Teams**
-- Multi-disciplinary coordination between tools
-- 3D model reporting and analysis
-- Version control and collaboration
 - Implementation best practices
 
 ## 🚀 Quick Start
@@ -94,7 +84,7 @@ Each document follows a consistent didactic sequence:
 
 ## 📋 Requirements
 
-- **Speckle**: Version 2.x
+- **Speckle**: Version 3.x
 - **Connectors**: Active DUI3, project permissions
 - **Power BI**: Data Extensions enabled, Desktop Service active
 - **SDKs**: `specklepy` (Python) or `speckle-sharp` (.NET)
@@ -146,7 +136,7 @@ See [Changelog](16_Changelog.md) for complete details.
 ## 🙏 Special Acknowledgments
 
 ### **Speckle Team**
-- **[Jonathon Broughton](https://www.linkedin.com/in/jonathonbroughton/)** - For his guidance, information facilitation and good disposition throughout the development of this documentation
+- **[Jonathon Broughton](https://www.linkedin.com/in/jonathonbroughton/)** - For his guidance, information facilitation and good disposition
 - **Entire Speckle Team** - For creating and maintaining this incredible AEC collaboration platform
 
 ### **Community**
