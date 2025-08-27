@@ -4,154 +4,157 @@
 [![Documentation Status](https://img.shields.io/badge/Documentation-AI--Ready-green.svg)](https://github.com/UmbralBIM/speckle-ai-ready-docs)
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--08--18-orange.svg)](16_Changelog.md)
 
-> **Documentación estructurada y verificada para LLMs y asistentes de IA especializados en Speckle**
+> **Structured and verified documentation for LLMs and AI assistants specialized in Speckle**
 
-## 🎯 Propósito
+## 🎯 Purpose
 
-Esta colección de documentos proporciona una base de conocimiento **AI-ready** para asistentes de IA que necesiten resolver consultas técnicas sobre Speckle. Los documentos están estructurados siguiendo principios pedagógicos específicos y contienen información verificada sobre conectores, API, Power BI, scripting y mejores prácticas.
+This collection of documents provides an **AI-ready** knowledge base for AI assistants that need to solve technical queries about Speckle. The documents are structured following specific pedagogical principles and contain verified information about connectors, API, Power BI, scripting and best practices.
 
-## 📚 Documentos Disponibles
+## 📚 Available Documents
 
-### 📖 **Documentos Principales**
-- **[01_General_Instructions.md](01_General_Instructions.md)** - Instrucciones operativas para asistentes de IA
-- **[02_Master_Index.md](02_Master_Index.md)** - Índice navegable de todos los documentos
-- **[04_Glossary.md](04_Glossary.md)** - Terminología oficial de Speckle
-- **[05_Speckle_Key_Elements.md](05_Speckle_Key_Elements.md)** - Conceptos fundamentales
+### 📖 **Main Documents**
+- **[01_General_Instructions.md](01_General_Instructions.md)** - Operational instructions for AI assistants
+- **[02_Master_Index.md](02_Master_Index.md)** - Navigable index of all documents
+- **[04_Glossary.md](04_Glossary.md)** - Official Speckle terminology
+- **[05_Speckle_Key_Elements.md](05_Speckle_Key_Elements.md)** - Fundamental concepts
 
-### 🔌 **Conectores y Herramientas**
-- **[06_General_Connectors.md](06_General_Connectors.md)** - Instalación y compatibilidades generales
+### 🔌 **Connectors and Tools**
+- **[06_General_Connectors.md](06_General_Connectors.md)** - Installation and general compatibilities
 - **[07_Modeling_Connectors.md](07_Modeling_Connectors.md)** - Revit, Rhino, Grasshopper, Blender, QGIS
-- **[08_Tabular_Data_Integrations.md](08_Tabular_Data_Integrations.md)** - Excel y Power BI
-- **[09_Scripting_and_Code_Guide.md](09_Scripting_and_Code_Guide.md)** - `specklepy` y `speckle-sharp`
+- **[08_Tabular_Data_Integrations.md](08_Tabular_Data_Integrations.md)** - Excel and Power BI
+- **[09_Scripting_and_Code_Guide.md](09_Scripting_and_Code_Guide.md)** - `specklepy` and `speckle-sharp`
 
-### 🚀 **API y Desarrollo**
-- **[10_API_and_GraphQL.md](10_API_and_GraphQL.md)** - Autenticación, consultas y ejemplos
-- **[11_PowerBI_3D_Visual_Integrations.md](11_PowerBI_3D_Visual_Integrations.md)** - Visual 3D de Power BI
+### 🚀 **API and Development**
+- **[10_API_and_GraphQL.md](10_API_and_GraphQL.md)** - Authentication, queries and examples
+- **[11_PowerBI_3D_Visual_Integrations.md](11_PowerBI_3D_Visual_Integrations.md)** - Power BI 3D Visual
 
-### 📋 **Patrones y Mejores Prácticas**
-- **[12_Common_Patterns.md](12_Common_Patterns.md)** - Flujos multi-herramienta típicos
-- **[13_Problem_Solving.md](13_Problem_Solving.md)** - Diagnóstico y troubleshooting
-- **[14_Best_Practices.md](14_Best_Practices.md)** - Versionado, permisos y rendimiento
-- **[15_Use_Cases.md](15_Use_Cases.md)** - Casos de uso AEC específicos
+### 📋 **Patterns and Best Practices**
+- **[12_Common_Patterns.md](12_Common_Patterns.md)** - Typical multi-tool workflows
+- **[13_Problem_Solving.md](13_Problem_Solving.md)** - Diagnosis and troubleshooting
+- **[14_Best_Practices.md](14_Best_Practices.md)** - Versioning, permissions and performance
+- **[15_Use_Cases.md](15_Use_Cases.md)** - Specific AEC use cases
 
-### 📝 **Control de Cambios**
-- **[16_Changelog.md](16_Changelog.md)** - Historial de versiones y actualizaciones
+### 📝 **Change Control**
+- **[16_Changelog.md](16_Changelog.md)** - Version history and updates
 
-## 🎓 Metodología AI-Ready
+## 🎓 AI-Ready Methodology
 
-### **Principio → Ejemplo → Aplicación**
-Cada documento sigue una secuencia didáctica consistente:
-1. **Principio**: Explica el concepto o capacidad técnica
-2. **Ejemplo**: Proporciona código funcional con placeholders
-3. **Aplicación**: Describe pasos específicos para casos de uso reales
+### **Principle → Example → Application**
+Each document follows a consistent didactic sequence:
+1. **Principle**: Explains the technical concept or capability
+2. **Example**: Provides functional code with placeholders
+3. **Application**: Describes specific steps for real use cases
 
-### **Características Clave**
-- ✅ **Información verificada** - Basada en pruebas reales y documentación oficial
-- ✅ **Terminología consistente** - Vocabulario normalizado según el glosario
-- ✅ **Ejemplos reproducibles** - Código funcional con placeholders seguros
-- ✅ **Referencias cruzadas** - Enlaces internos entre documentos relacionados
-- ✅ **Estructura navegable** - Índice maestro para localización rápida
+### **Key Features**
+- ✅ **Verified information** - Based on real tests and official documentation
+- ✅ **Consistent terminology** - Normalized vocabulary according to the glossary
+- ✅ **Reproducible examples** - Functional code with safe placeholders
+- ✅ **Cross-references** - Internal links between related documents
+- ✅ **Navigable structure** - Master index for quick location
 
-## 🛠️ Casos de Uso
+## 🛠️ Use Cases
 
-### **Para Asistentes de IA**
-- Resolver consultas técnicas sobre implementaciones de Speckle
-- Guiar usuarios en flujos de trabajo multi-herramienta
-- Proporcionar ejemplos de código verificados
-- Diagnosticar problemas comunes
+### **For AI Assistants**
+- Solve technical queries about Speckle implementations
+- Guide users in multi-tool workflows
+- Provide verified code examples
+- Diagnose common problems
 
-### **Para Desarrolladores**
-- Implementar integraciones con la API de Speckle
-- Configurar conectores para aplicaciones AEC
-- Crear dashboards en Power BI con datos 3D
-- Automatizar flujos con SDKs
+### **For Developers**
+- Implement integrations with Speckle API
+- Configure connectors for AEC applications
+- Create 3D data dashboards in Power BI
+- Automate workflows with SDKs
 
-### **Para Equipos AEC**
-- Coordinación multidisciplinaria entre herramientas
-- Reporting y análisis de modelos 3D
-- Control de versiones y colaboración
-- Mejores prácticas de implementación
+### **For AEC Teams**
+- Multi-disciplinary coordination between tools
+- 3D model reporting and analysis
+- Version control and collaboration
+- Implementation best practices
 
-## 🚀 Inicio Rápido
+## 🚀 Quick Start
 
-### **1. Consulta Básica**
+### **1. Basic Query**
 ```markdown
-"¿Cómo enviar datos desde Revit a Speckle?"
-→ Consultar: `07_Modeling_Connectors.md` (Principio → Ejemplo → Aplicación)
+"How to send data from Revit to Speckle?"
+→ Consult: `07_Modeling_Connectors.md` (Principle → Example → Application)
 ```
 
-### **2. Implementación Power BI**
+### **2. Power BI Implementation**
 ```markdown
-"¿Cómo configurar el Visual 3D en Power BI?"
-→ Consultar: `11_PowerBI_3D_Visual_Integrations.md` + `08_Tabular_Data_Integrations.md`
+"How to configure the 3D Visual in Power BI?"
+→ Consult: `11_PowerBI_3D_Visual_Integrations.md` + `08_Tabular_Data_Integrations.md`
 ```
 
 ### **3. Troubleshooting**
 ```markdown
-"El conector de Rhino no aparece"
-→ Consultar: `13_Problem_Solving.md` → Checklist diagnóstico
+"Rhino connector doesn't appear"
+→ Consult: `13_Problem_Solving.md` → Diagnostic checklist
 ```
 
-## 📋 Requisitos
+## 📋 Requirements
 
-- **Speckle**: Versión 3.x
-- **Conectores**: DUI3 activo, permisos de proyecto
-- **Power BI**: Data Extensions habilitadas, Desktop Service activo
-- **SDKs**: `specklepy` (Python) o `speckle-sharp` (.NET)
+- **Speckle**: Version 2.x
+- **Connectors**: Active DUI3, project permissions
+- **Power BI**: Data Extensions enabled, Desktop Service active
+- **SDKs**: `specklepy` (Python) or `speckle-sharp` (.NET)
 
-## 🔗 Enlaces Útiles
+## 🔗 Useful Links
 
-- **Speckle Oficial**: [speckle.systems](https://speckle.systems)
+- **Official Speckle**: [speckle.systems](https://speckle.systems)
 - **GraphQL Explorer**: [app.speckle.systems/explorer](https://app.speckle.systems/explorer)
-- **Comunidad**: [forum.speckle.systems](https://forum.speckle.systems)
-- **Documentación**: [docs.speckle.systems](https://docs.speckle.systems)
+- **Community**: [forum.speckle.systems](https://forum.speckle.systems)
+- **Documentation**: [docs.speckle.systems](https://docs.speckle.systems)
 
-## 🤝 Contribuciones
+## 🤝 Contributions
 
-### **Reportar Problemas**
-- Usar el [issue tracker](https://github.com/UmbralBIM/speckle-ai-ready-docs/issues)
-- Incluir contexto: herramienta, versión, pasos para reproducir
-- Adjuntar logs cuando sea posible
+### **Report Issues**
+- Use the [issue tracker](https://github.com/UmbralBIM/speckle-ai-ready-docs/issues)
+- Include context: tool, version, steps to reproduce
+- Attach logs when possible
 
-### **Sugerir Mejoras**
-- Proponer nuevos casos de uso o patrones
-- Sugerir ejemplos de código adicionales
-- Identificar inconsistencias en la documentación
+### **Suggest Improvements**
+- Propose new use cases or patterns
+- Suggest additional code examples
+- Identify inconsistencies in documentation
 
-### **Contribuir Contenido**
-- Seguir la estructura **Principio → Ejemplo → Aplicación**
-- Usar terminología del glosario oficial
-- Incluir placeholders seguros (`YOUR_PROJECT_ID`, `YOUR_TOKEN`)
+### **Contribute Content**
+- Follow the **Principle → Example → Application** structure
+- Use official glossary terminology
+- Include safe placeholders (`YOUR_PROJECT_ID`, `YOUR_TOKEN`)
+- Verify functionality before submitting
 
-## 📄 Licencia
+## 📄 License
 
-Este proyecto está bajo la licencia [MIT](LICENSE). La documentación de Speckle está sujeta a los [términos de uso oficiales](https://speckle.systems/terms).
+This project is under the [MIT](LICENSE) license. Speckle documentation is subject to the [official terms of use](https://speckle.systems/terms).
 
-## 🏷️ Versiones
+## 🏷️ Versions
 
-- **v0.2** (2025-08-18): Soporte completo para comentarios/`commentThreads`
-- **v0.1** (2025-08-15): Versión inicial con estructura base
+- **v0.2** (2025-08-18): Complete support for comments/`commentThreads`
+- **v0.1** (2025-08-15): Initial version with base structure
 
-Ver [Changelog](16_Changelog.md) para detalles completos.
+See [Changelog](16_Changelog.md) for complete details.
 
-## 🌐 Comunidad y Recursos
+## 🌐 Community and Resources
 
 - **Issues**: [GitHub Issues](https://github.com/UmbralBIM/speckle-ai-ready-docs/issues)
-- **Discusiones**: [GitHub Discussions](https://github.com/UmbralBIM/speckle-ai-ready-docs/discussions)
-- **Comunidad**: [Speckle Forum](https://forum.speckle.systems)
+- **Discussions**: [GitHub Discussions](https://github.com/UmbralBIM/speckle-ai-ready-docs/discussions)
+- **Community**: [Speckle Forum](https://forum.speckle.systems)
 
 ---
 
-## 🙏 Agradecimientos Especiales
+## 🙏 Special Acknowledgments
 
-### **Equipo de Speckle**
-- **[Jonathon Broughton](https://www.linkedin.com/in/jonathonbroughton/)** - Por su orientación, facilitación de información y buena disposición.
-- **Todo el equipo de Speckle** - Por crear y mantener esta increíble plataforma de colaboración AEC
+### **Speckle Team**
+- **[Jonathon Broughton](https://www.linkedin.com/in/jonathonbroughton/)** - For his guidance, information facilitation and good disposition throughout the development of this documentation
+- **Entire Speckle Team** - For creating and maintaining this incredible AEC collaboration platform
 
-### **Comunidad**
-- **Contribuidores** - Por compartir conocimiento y mejorar esta documentación
-- **Usuarios** - Por probar, reportar y sugerir mejoras
+### **Community**
+- **Contributors** - For sharing knowledge and improving this documentation
+- **Users** - For testing, reporting and suggesting improvements
 
 ---
 
-**¿Te gusta esta documentación?** ⭐ ¡Dale una estrella al repositorio!
+**Do you like this documentation?** ⭐ Give the repository a star!
+
+*Maintained by the Speckle community and contributors*
