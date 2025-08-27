@@ -107,6 +107,7 @@ Each document follows a consistent didactic sequence:
 - Propose new use cases or patterns
 - Suggest additional code examples
 - Identify inconsistencies in documentation
+- **For discussions and questions**: Use [Speckle Community](https://speckle.community/)
 
 ### **Contribute Content**
 - Follow the **Principle → Example → Application** structure
@@ -128,8 +129,8 @@ See [Changelog](16_Changelog.md) for complete details.
 ## 🌐 Community and Resources
 
 - **Issues**: [GitHub Issues](https://github.com/UmbralBIM/speckle-ai-ready-docs/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/UmbralBIM/speckle-ai-ready-docs/discussions)
-- **Community**: [Speckle Forum](https://forum.speckle.systems)
+- **Community**: [Speckle Community](https://speckle.community/)
+- **Forum**: [Speckle Forum](https://forum.speckle.systems)
 
 ---
 
