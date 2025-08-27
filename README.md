@@ -82,6 +82,13 @@ Each document follows a consistent didactic sequence:
 → Consult: `13_Problem_Solving.md` → Diagnostic checklist
 ```
 
+### **🤖 Try the AI Assistant**
+**Already deployed and ready to use!** Test our specialized Speckle AI assistant:
+- **[Speckle AI GPT](https://chatgpt.com/g/g-68ae37ef5f908191b170916a394b47ef-speckle-ai)** - Your expert Speckle assistant that solves technical questions, guides connector setup and helps with Power BI, API and scripting integrations
+- **Based on verified documentation** from this repository
+- **Follows the Principle → Example → Application methodology**
+- **Handles complex queries** and provides step-by-step guidance
+
 ## 📋 Requirements
 
 - **Speckle**: Version 3.x
@@ -93,7 +100,7 @@ Each document follows a consistent didactic sequence:
 
 - **Official Speckle**: [speckle.systems](https://speckle.systems)
 - **GraphQL Explorer**: [app.speckle.systems/explorer](https://app.speckle.systems/explorer)
-- **Community**: [forum.speckle.systems](https://forum.speckle.systems)
+- **Community**: [Speckle Community](https://speckle.community/)
 - **Documentation**: [docs.speckle.systems](https://docs.speckle.systems)
 
 ## 🤝 Contributions
@@ -130,7 +137,7 @@ See [Changelog](16_Changelog.md) for complete details.
 
 - **Issues**: [GitHub Issues](https://github.com/UmbralBIM/speckle-ai-ready-docs/issues)
 - **Community**: [Speckle Community](https://speckle.community/)
-- **Forum**: [Speckle Forum](https://forum.speckle.systems)
+- **Forum**: [Speckle Community](https://speckle.community/)
 
 ---
 
