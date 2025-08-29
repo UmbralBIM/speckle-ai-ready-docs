@@ -122,6 +122,11 @@ Each document follows a consistent didactic sequence:
 - Include safe placeholders (`YOUR_PROJECT_ID`, `YOUR_TOKEN`)
 - Verify functionality before submitting
 
+### **Community Discussion**
+- **Main discussion thread**: [AI Assistant specialized in Speckle](https://speckle.community/t/ai-assistant-specialized-in-speckle/20083)
+- Share feedback, ask questions, and discuss improvements
+- Connect with other users and contributors
+
 ## 📄 License
 
 This project is under the [MIT](LICENSE) license. Speckle documentation is subject to the [official terms of use](https://speckle.systems/terms).
